@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    height: 200vh;
+    width: 100%;
+}
+.menu ul{
+    text-decoration: none;
+    display: inline-flex;
+    margin: 50px;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.menu h1{
+    float: left;
+    font-size: 60px;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.JoinUs-btn {
+    top: 50px;
+    right: 80px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: burlywood;
+    color: black;
+    padding: 40px 40px; /* increased left and right padding */
+    display: block;
+  }
+.app-text{
+    width: 100%;
+    float: left;
+}
+.app-text p {
+    align: center;
+    width: 90%;
+    padding: 20px;
+    font-size: 30px;
+    margin: 40px 0 30px 50px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+
+
